@@ -14,6 +14,7 @@ export default defineConfig({
       manifest: {
         name: 'Emoji Picker',
         short_name: 'Emoji Picker',
+        description: 'Pick and copy emoji as text or image.',
         start_url: base,
         scope: base,
         theme_color: '#ffffff',
