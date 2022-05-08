@@ -80,12 +80,12 @@ export const App: FC = () => {
   );
 
   return (
-    <main className="min-h-full p-4 gap-4 flex flex-col items-center max-w-2xl w-full mx-auto">
-      <h1 className="font-black text-3xl">
+    <main className="flex flex-col gap-4 items-center p-4 mx-auto w-full max-w-2xl min-h-full">
+      <h1 className="text-3xl font-black">
         <span aria-hidden>😃</span>
         Emoji Picker
       </h1>
-      <label className="flex flex-col gap-2 w-full sticky">
+      <label className="flex sticky flex-col gap-2 w-full">
         <span>Input emoji query here</span>
         <input
           type="text"
@@ -96,7 +96,7 @@ export const App: FC = () => {
           placeholder={placeholder}
         />
       </label>
-      <div className="flex gap-4 flex-wrap">
+      <div className="flex flex-wrap gap-4">
         {(
           [
             {
@@ -116,7 +116,7 @@ export const App: FC = () => {
           <div key={label} className="flex gap-2 items-center">
             <div className="font-bold">{label}</div>
             {values.map((value) => (
-              <label key={value} className="label cursor-pointer">
+              <label key={value} className="cursor-pointer label">
                 <input
                   type="radio"
                   value={value}
@@ -127,7 +127,7 @@ export const App: FC = () => {
                   onChange={onChange}
                   disabled={source === 'unicode' && label === 'Image type'}
                 />
-                <span className="label-text inline-block pl-2">{value}</span>
+                <span className="inline-block pl-2 label-text">{value}</span>
               </label>
             ))}
           </div>
@@ -136,7 +136,7 @@ export const App: FC = () => {
       <div className="space-y-4 w-full">
         {Array.from(groupEmoji(queryEmoji(query))).map(
           ([category, subcategories]) => (
-            <details key={category} className="w-full space-y-2" open>
+            <details key={category} className="space-y-2 w-full" open>
               <summary>
                 <span className="font-bold">{category}</span>
               </summary>

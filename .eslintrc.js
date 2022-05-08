@@ -8,6 +8,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:@typescript-eslint/recommended',
+    'plugin:tailwindcss/recommended',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -18,6 +19,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'tailwindcss'],
   rules: {},
 };
