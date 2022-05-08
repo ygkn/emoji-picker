@@ -85,6 +85,7 @@ export const App: FC = () => {
         <span aria-hidden>😃</span>
         Emoji Picker
       </h1>
+      <p>Pick and copy emoji as text or image</p>
       <label className="flex sticky flex-col gap-2 w-full">
         <span>Input emoji query here</span>
         <input
