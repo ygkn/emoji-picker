@@ -12,7 +12,7 @@
 
 
 
-## Features
+## ✨ Features
 
 - Search emojis by name and short names (like GitHub, Slack and so on)
 - Copy emoji as text
@@ -21,7 +21,7 @@
   - You can paste the image to your PowerPoint or Google Slides presentation, Figma design, and so on
 - (Comming soon) Offline support
 
-## Development
+## 🚀 Development
 
 ### Requirements
 
