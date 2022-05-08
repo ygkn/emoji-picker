@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>😃 Emoji  Picker</h1>
+
+  # 😃 Emoji  Picker
   
   A PWA to pick and copy emoji as text or image.
   
