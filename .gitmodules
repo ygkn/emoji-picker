@@ -1,0 +1,6 @@
+[submodule "twemoji"]
+	path = twemoji
+	url = https://github.com/twitter/twemoji.git
+[submodule "noto-emoji"]
+	path = noto-emoji
+	url = https://github.com/googlefonts/noto-emoji.git
