@@ -3,6 +3,8 @@
 <p>A PWA to pick and copy emoji as text or image.</p>
 </div>
 
+[![code check](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml) [![deploy](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml)
+
 Go to <https://ygkn.github.io/emoji-picker/>!
 
 ## Development
