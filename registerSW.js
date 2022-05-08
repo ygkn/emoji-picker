@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/emoji-picker/sw.js', { scope: '/emoji-picker/' })})}
