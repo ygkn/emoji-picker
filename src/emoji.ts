@@ -1,5 +1,16 @@
 import emojiJson, { Emoji } from 'emoji-datasource/emoji.json';
 
+export type EmojiSource = 'unicode' | 'twemoji' | 'noto';
+export type ImageType = 'svg' | 'png';
+
+export class ImageNotFoundError extends Error {
+  constructor(unified: string, source: EmojiSource, type: ImageType) {
+    super(
+      `Image not found for emoji: ${display(unified)} from ${source} ${type}`
+    );
+  }
+}
+
 export const display = (emoji: Emoji['unified']): string =>
   String.fromCodePoint(...emoji.split('-').map((code) => parseInt(code, 16)));
 
@@ -33,6 +44,68 @@ export const groupEmoji = (
 
 export const randomEmoji = (): Emoji =>
   emojiJson[Math.floor(Math.random() * emojiJson.length)]!;
+
+export const copyEmoji = async (
+  unified: Emoji['unified'],
+  emojiSource: EmojiSource,
+  imageType: ImageType
+) => {
+  if (emojiSource === 'unicode') {
+    await navigator.clipboard.writeText(display(unified));
+  }
+  if (emojiSource === 'twemoji') {
+    if (imageType === 'svg') {
+      const result = await fetch(`/twemoji/svg/${unified.toLowerCase()}.svg`);
+      if (result.status === 200) {
+        const text = await result.text();
+        await navigator.clipboard.writeText(text);
+      } else {
+        throw new ImageNotFoundError(unified, emojiSource, imageType);
+      }
+    }
+    if (imageType === 'png') {
+      const result = await fetch(`/twemoji/72x72/${unified.toLowerCase()}.png`);
+      if (result.status === 200) {
+        const blob = await result.blob();
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            [blob.type]: blob,
+          }),
+        ]);
+      } else {
+        throw new ImageNotFoundError(unified, emojiSource, imageType);
+      }
+    }
+  }
+  if (emojiSource === 'noto') {
+    if (imageType === 'svg') {
+      const result = await fetch(
+        `/noto-emoji/svg/emoji_u${unified.toLowerCase()}.svg`
+      );
+      if (result.status === 200) {
+        const text = await result.text();
+        await navigator.clipboard.writeText(text);
+      } else {
+        throw new ImageNotFoundError(unified, emojiSource, imageType);
+      }
+    }
+    if (imageType === 'png') {
+      const result = await fetch(
+        `/noto-emoji/72/emoji_u${unified.toLowerCase()}.png`
+      );
+      if (result.status === 200) {
+        const blob = await result.blob();
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            [blob.type]: blob,
+          }),
+        ]);
+      } else {
+        throw new ImageNotFoundError(unified, emojiSource, imageType);
+      }
+    }
+  }
+};
 
 if (import.meta.vitest) {
   const { test, it, expect } = import.meta.vitest;
