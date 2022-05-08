@@ -81,7 +81,10 @@ export const App: FC = () => {
 
   return (
     <main className="min-h-full p-4 gap-4 flex flex-col items-center max-w-2xl w-full mx-auto">
-      <h1 className="font-black text-3xl">Emoji Picker</h1>
+      <h1 className="font-black text-3xl">
+        <span aria-hidden>😃</span>
+        Emoji Picker
+      </h1>
       <label className="flex flex-col gap-2 w-full sticky">
         <span>Input emoji query here</span>
         <input
