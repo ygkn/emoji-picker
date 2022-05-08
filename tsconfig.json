@@ -16,7 +16,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "types": [
-      "vitest/importMeta"
+      "vitest/importMeta",
+      "vite-plugin-pwa/client",
     ]
   },
   "include": [

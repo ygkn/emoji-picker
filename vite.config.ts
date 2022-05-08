@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      registerType: 'autoUpdate',
       includeAssets: ['{twemoji,noto-emoji}/**/*.{png,svg}'],
       manifest: {
         name: 'Emoji Picker',
