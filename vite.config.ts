@@ -2,7 +2,7 @@ import { defineConfig } from 'vitest/config';
 import { VitePWA } from 'vite-plugin-pwa';
 import react from '@vitejs/plugin-react';
 
-const base = process.env['NODE_ENV'] === 'development' ? '/' : '/emoji-picker/';
+const base = '/emoji-picker/';
 
 export default defineConfig({
   base,
