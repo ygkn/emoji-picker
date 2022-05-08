@@ -861,6 +861,11 @@ electron-to-chromium@^1.4.118:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.137.tgz#186180a45617283f1c012284458510cd99d6787f"
   integrity sha512-0Rcpald12O11BUogJagX3HsCN3FE83DSqWjgXoHo5a72KUKMSfI39XBgJpgNNxS9fuGzytaFjE06kZkiVFy2qA==
 
+emoji-datasource@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/emoji-datasource/-/emoji-datasource-14.0.0.tgz#99529a62f3a86546fc670c09b672ddc9f24f3d44"
+  integrity sha512-SoOv0lSa+9/2X9ulSRDhu2u1zAOaOv5vtMY3OYUDcQCoReEh0/3eQAMuBM9LyD7Hy3G4K7mDPDqVeHUWvy7cow==
+
 es-abstract@^1.19.0, es-abstract@^1.19.1, es-abstract@^1.19.2, es-abstract@^1.19.5:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.20.0.tgz#b2d526489cceca004588296334726329e0a6bfb6"
