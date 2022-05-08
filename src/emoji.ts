@@ -55,7 +55,7 @@ export const copyEmoji = async (
   }
   if (emojiSource === 'twemoji') {
     if (imageType === 'svg') {
-      const result = await fetch(`/twemoji/svg/${unified.toLowerCase()}.svg`);
+      const result = await fetch(`twemoji/svg/${unified.toLowerCase()}.svg`);
       if (result.status === 200) {
         const text = await result.text();
         await navigator.clipboard.writeText(text);
@@ -64,7 +64,7 @@ export const copyEmoji = async (
       }
     }
     if (imageType === 'png') {
-      const result = await fetch(`/twemoji/72x72/${unified.toLowerCase()}.png`);
+      const result = await fetch(`twemoji/72x72/${unified.toLowerCase()}.png`);
       if (result.status === 200) {
         const blob = await result.blob();
         await navigator.clipboard.write([
@@ -80,7 +80,7 @@ export const copyEmoji = async (
   if (emojiSource === 'noto') {
     if (imageType === 'svg') {
       const result = await fetch(
-        `/noto-emoji/svg/emoji_u${unified.toLowerCase()}.svg`
+        `noto-emoji/svg/emoji_u${unified.toLowerCase()}.svg`
       );
       if (result.status === 200) {
         const text = await result.text();
@@ -91,7 +91,7 @@ export const copyEmoji = async (
     }
     if (imageType === 'png') {
       const result = await fetch(
-        `/noto-emoji/72/emoji_u${unified.toLowerCase()}.png`
+        `noto-emoji/72/emoji_u${unified.toLowerCase()}.png`
       );
       if (result.status === 200) {
         const blob = await result.blob();
