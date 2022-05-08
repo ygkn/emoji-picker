@@ -1,11 +1,15 @@
 <div align="center">
-<h1>😃 Emoji  Picker</h1>
-<p>A PWA to pick and copy emoji as text or image.</p>
+  <h1>😃 Emoji  Picker</h1>
+  
+  A PWA to pick and copy emoji as text or image.
+  
+  <https://ygkn.github.io/emoji-picker/>
+
+  [![code check](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml) [![deploy](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml)
+
 </div>
 
-[![code check](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/code-check.yml) [![deploy](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml/badge.svg)](https://github.com/ygkn/emoji-picker/actions/workflows/deploy.yml)
 
-Go to <https://ygkn.github.io/emoji-picker/>!
 
 ## Features
 
