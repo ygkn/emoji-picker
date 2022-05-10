@@ -34,7 +34,7 @@ This repository has some submodules. So you should use `--recursive` option when
 
 ```sh
 git clone --recursive https://github.com/ygkn/emoji-picker.git
-# or run `git submodule update --init --recursive` after cloning
+# or run `git submodule update --init --recursive --recommend-shallow --depth 1` after cloning
 cd emoji-picker
 ```
 
