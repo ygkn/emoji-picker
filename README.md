@@ -30,11 +30,15 @@
 
 ### Installation
 
-This repository has some submodules. So you should use `--recursive` option when cloning or run `git submodule update --init --recursive` after cloning.
+This repository has some submodules. So you should use `--recursive` option when cloning or run ` git submodule update --init --recursive --recommend-shallow --depth 1 ` after cloning.
 
 ```sh
 git clone --recursive https://github.com/ygkn/emoji-picker.git
-# or run `git submodule update --init --recursive --recommend-shallow --depth 1` after cloning
+
+## or run
+# git submodule update --init --recursive --recommend-shallow --depth 1
+## after cloning
+
 cd emoji-picker
 ```
 
