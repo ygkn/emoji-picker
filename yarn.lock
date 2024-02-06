@@ -2429,10 +2429,10 @@ electron-to-chromium@^1.4.601:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.635.tgz#e4e064b8711a98827652ce17cc11b0e0184c40d1"
   integrity sha512-iu/2D0zolKU3iDGXXxdOzNf72Jnokn+K1IN6Kk4iV6l1Tr2g/qy+mvmtfAiBwZe5S3aB5r92vp+zSZ69scYRrg==
 
-emoji-datasource@15.0.1:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/emoji-datasource/-/emoji-datasource-15.0.1.tgz#6cc7676e4d48d7559c2e068ffcacf84ec653584c"
-  integrity sha512-aF5Q6LCKXzJzpG4K0ETiItuzz0xLYxNexR9qWw45/shuuEDWZkOIbeGHA23uopOSYA/LmeZIXIFsySCx+YKg2g==
+emoji-datasource@15.1.0:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/emoji-datasource/-/emoji-datasource-15.1.0.tgz#dd1febee620cf2d6e9a68972991923f084d58bf3"
+  integrity sha512-ZEK2Cdi2TOHDf91duRVQ3ec/+AP9qOnPqE9hyID7TsmNUQss0G3Fr7qMdXKZ+OPDZBvWdsI0vhkhi+LVwuuX3g==
 
 es-abstract@^1.19.0, es-abstract@^1.19.1, es-abstract@^1.19.5:
   version "1.20.0"
