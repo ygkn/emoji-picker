@@ -2808,10 +2808,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
   integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
 
-daisyui@5.0.25:
-  version "5.0.25"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.0.25.tgz#390bdf2f465641846b47d218818f1019ab27b47e"
-  integrity sha512-ETVQGxhwR8CIzPvJKKIKbQcOni9o2Dh9ODvy2aqNePo11lKRXkT7ugWldjNbqSTTr/jtHnQKMPau0AraRXSRKw==
+daisyui@5.0.26:
+  version "5.0.26"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.0.26.tgz#dbe805e4a3adcf825f818bd57265ae69a6420272"
+  integrity sha512-YNt9gNV3wZQPeiwtdBvNYWLaN39VguyAYSwizgYywMAqDlStEh5rGHBUsyrgbA09Iws+ORO+P28oFJe59kTkxA==
 
 data-view-buffer@^1.0.1:
   version "1.0.1"
