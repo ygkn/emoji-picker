@@ -12,7 +12,7 @@
     "code-check": "run-p lint type-check format-check build"
   },
   "dependencies": {
-    "daisyui": "5.1.24",
+    "daisyui": "5.1.25",
     "emoji-datasource": "16.0.0",
     "react": "19.1.1",
     "react-dom": "19.1.1"
