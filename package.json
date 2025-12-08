@@ -14,8 +14,8 @@
   "dependencies": {
     "daisyui": "5.5.8",
     "emoji-datasource": "16.0.0",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tsconfig/strictest": "2.0.8",
