@@ -28,7 +28,7 @@
     "eslint": "10.2.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-tailwindcss": "3.18.2",
+    "eslint-plugin-tailwindcss": "3.18.3",
     "npm-run-all2": "8.0.4",
     "postcss": "8.5.9",
     "prettier": "3.8.1",
