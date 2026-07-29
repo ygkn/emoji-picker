@@ -2759,10 +2759,10 @@ csstype@^3.2.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
   integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
 
-daisyui@5.7.4:
-  version "5.7.4"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.7.4.tgz#434b4e3152c6f186e4f08173ec9aabc9509d9af6"
-  integrity sha512-zKzFIwvEvn2QvE1TbUUtDnYFOqWoxeZh+j4QXfhkZKYAT++pO2ijyT9rkFm0GIPDWR1/oo9hHZzd96AsTK0iZg==
+daisyui@5.7.7:
+  version "5.7.7"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-5.7.7.tgz#de925d144131b9aa6f2cbea4f354d2352ce74b0f"
+  integrity sha512-k3fza99NburOj18SGqMmvMOoIP4iSKkw4PbaE8gCxNOvwoNdEg4HlKgNJjsh+00RijMVKNgOTNqw42FfOT5Ukw==
 
 data-view-buffer@^1.0.1:
   version "1.0.1"
