@@ -31,7 +31,7 @@
     "eslint-plugin-tailwindcss": "4.4.0",
     "npm-run-all2": "9.0.3",
     "postcss": "8.5.29",
-    "prettier": "3.9.9",
+    "prettier": "3.9.10",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2",
     "vite": "8.3.3",
