@@ -1749,10 +1749,10 @@
     magic-string "^0.30.21"
     string.prototype.matchall "^4.0.12"
 
-"@tsconfig/strictest@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.8.tgz#d6be87c11d29370357cd27d1cdedf97c979103d5"
-  integrity sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==
+"@tsconfig/strictest@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.9.tgz#266506ebdcf0859c187e3bd5dbdda1ceb6bd0dee"
+  integrity sha512-CbwIySRXoGapLZYXqQHF15cg0wQImJa25Ynmubb7816vnHqTdQrmQlSbZxkJrrBusHLbF1kFbNVn8XtxmQ3EpQ==
 
 "@types/chai@^5.2.2":
   version "5.2.2"
