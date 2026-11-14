@@ -30,7 +30,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-tailwindcss": "4.4.0",
     "npm-run-all2": "9.0.4",
-    "postcss": "8.5.32",
+    "postcss": "8.5.33",
     "prettier": "3.10.1",
     "tailwindcss": "4.3.5",
     "typescript": "7.0.2",
